@@ -17,6 +17,10 @@ a{
 }
 
 #home_pokemon{
+    img{
+        // object-fit: contain;
+        object-fit: scale-down;
+    }
     & ul{
         list-style: none;
     }
