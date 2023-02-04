@@ -1,1 +1,11 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+#home_pokemon{
+    & ul{
+        list-style: none;
+    }
+
+    & .my_card{
+        width: 100px;
+    }
+}
