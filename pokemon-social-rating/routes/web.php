@@ -13,3 +13,10 @@ Route::get('/pokemon/show{id}', [MainController::class, 'pokemonShow'])
 // Destroy
 Route::get('/pokemon/destroy{id}', [MainController::class, 'pokemonDestroy'])
     -> name('pokemonDestroy');
+
+// Create
+Route::get('/pokemon/create', [MainController::class, 'pokemonCreate'])
+    -> name('pokemonCreate');
+// Store
+Route::post('pokemon/store', [MainController::class, 'pokemonStore'])
+    -> name('pokemonStore');

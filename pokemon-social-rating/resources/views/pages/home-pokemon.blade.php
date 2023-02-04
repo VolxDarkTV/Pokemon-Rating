@@ -15,7 +15,7 @@
             </div>
 
             <div class="d-flex justify-content-end">
-                <a class="btn btn-success" href="#">
+                <a class="btn btn-success" href="{{route('pokemonCreate')}}">
                     <h4>CREATE</h4>
                 </a>
             </div>
