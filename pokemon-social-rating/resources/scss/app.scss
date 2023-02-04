@@ -40,3 +40,23 @@ a{
         border-radius: 50%;
     }
 }
+#create_pokemon{
+
+    .my_bg_color{
+        // width: 100px;
+        // height: 100px;
+        background-image: linear-gradient(
+        180deg,
+        hsl(0deg 100% 50%) 1%,
+        hsl(0deg 80% 43%) 42%,
+        hsl(0deg 60% 35%) 49%,
+        hsl(0deg 40% 29%) 51%,
+        hsl(0deg 20% 21%) 51%,
+        hsl(0deg 0% 14%) 50%,
+        hsl(0deg 0% 31%) 49%,
+        hsl(0deg 0% 48%) 49%,
+        hsl(0deg 0% 66%) 51%,
+        hsl(0deg 0% 83%) 58%,
+        hsl(0deg 0% 100%) 99%);
+    }
+}
