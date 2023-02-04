@@ -18,19 +18,18 @@ class PokemonSeeder extends Seeder
     {
         $newPokemon = new Pokemon();
 
-        $newPokemon -> pokedex_n = 0001;
-        $newPokemon -> img_link = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png";
-        $newPokemon -> name = "Bulbasaur";
+        $newPokemon -> pokedex_n = 0003;
+        $newPokemon -> img_link = "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png";
+        $newPokemon -> name = "Venusaur";
         $newPokemon -> sex = "Male Female";
         $newPokemon -> type = "Grass Poison";
         $newPokemon -> type_weakness = "Fire Psychic Flying Ice";
-        $newPokemon -> height = "0,7";
-        $newPokemon -> weight = "6,9";
+        $newPokemon -> height = "6,07";
+        $newPokemon -> weight = "220,5";
         $newPokemon -> ability = "Overgrow";   
         $newPokemon -> category = "Seed";
         $newPokemon -> lv = 1;
-        $newPokemon -> description = " There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.
-        ";
+        $newPokemon -> description = "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.";
 
         $newPokemon -> save();
     }

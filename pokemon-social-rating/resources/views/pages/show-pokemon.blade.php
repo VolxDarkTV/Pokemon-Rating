@@ -7,7 +7,7 @@
 @section('main')
 <section id="show_pokemon" class="container">
 
-    <div class="d-flex flex-column align-items-center">
+    <div class="d-flex flex-column align-items-center mt-5">
         <div class="card text-center">
             <h2>{{$pokemon -> name}}</h2>
             <div class="d-flex justify-content-center">
@@ -20,7 +20,7 @@
             </div>
 
             {{-- Pokedex & Gender --}}
-            <div class="d-flex align-items-center p-3">
+            <div class="d-flex align-items-center justify-content-between">
                 <div class="col-6">
                     <span class="btn btn-warning text-dark">Pokedex N° {{$pokemon -> pokedex_n}}</span>
                 </div>
