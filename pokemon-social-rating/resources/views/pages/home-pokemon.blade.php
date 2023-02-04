@@ -30,8 +30,8 @@
                                 </div>
                                 {{$pokemon -> name}}
                             </a>
-                            <div class="card px-2 py-1">
-                                <a href="{{ route('pokemonDestroy', ['id' => $pokemon -> id]) }}">X</a>
+                            <div class="card rounded-circle">
+                                <a class="px-2 py-0 rounded-circle" href="{{ route('pokemonDestroy', ['id' => $pokemon -> id]) }}">x</a>
                             </div>
                         </li>
                     @endforeach

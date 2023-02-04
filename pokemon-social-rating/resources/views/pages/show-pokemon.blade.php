@@ -9,7 +9,7 @@
 
     <div class="d-flex flex-column align-items-center mt-5">
         <div class="card text-center">
-            <h2>{{$pokemon -> name}}</h2>
+            <h2 class="mb-3">{{$pokemon -> name}}</h2>
             <div class="d-flex justify-content-center">
                 <div class="my_level border border-warning border-5 d-flex align-items-center justify-content-center bg-success">
                     <span>LV. {{$pokemon -> lv}}</span>
