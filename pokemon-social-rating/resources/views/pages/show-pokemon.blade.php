@@ -15,16 +15,16 @@
                     <span>LV. {{$pokemon -> lv}}</span>
                 </div>
             </div>
-            <div class="pt-2">
+            <div>
                 <img class="my_card" src="{{$pokemon -> img_link}}" alt="">
             </div>
 
             {{-- Pokedex & Gender --}}
-            <div class="d-flex align-items-center justify-content-between p-2">
-                <div>
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="col-6">
                     <span class="btn btn-warning text-dark">Pokedex N° {{$pokemon -> pokedex_n}}</span>
                 </div>
-                <div>
+                <div class="col-6">
                     <span class="btn btn-danger text-light">{{$pokemon -> sex}}</span>
                 </div>
             </div>
