@@ -1,4 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
 
 #home_pokemon{
     & ul{
@@ -7,5 +11,20 @@
 
     & .my_card{
         width: 100px;
+    }
+}
+#show_pokemon{
+    & ul{
+        list-style: none;
+    }
+
+    & .my_card{
+        width: 300px;
+    }
+
+    & .my_level{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
     }
 }

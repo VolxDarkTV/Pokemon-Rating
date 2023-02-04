@@ -12,10 +12,12 @@
             <ul class="d-flex flex-column">
                 @foreach ($pokemons as $pokemon)
                     <li>
-                        <div>
-                            <img class="my_card" src="{{$pokemon -> img_link}}" alt="">
-                        </div>
-                        {{$pokemon -> name}}
+                        <a href="{{ route('pokemonShow', ['id' => $pokemon -> id]) }}">
+                            <div>
+                                <img class="my_card" src="{{$pokemon -> img_link}}" alt="">
+                            </div>
+                            {{$pokemon -> name}}
+                        </a>
                     </li>
                 @endforeach
             </ul>

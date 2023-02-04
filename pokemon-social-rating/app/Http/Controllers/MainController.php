@@ -17,4 +17,15 @@ class MainController extends Controller
         ];
         return view('pages.home-pokemon', $data);
     }
+    // --- Show
+    public function pokemonShow($id){
+
+        $pokemon = Pokemon::find($id);
+
+        $data = [
+            'pokemon' => $pokemon
+        ];
+         
+        return view('pages.show-pokemon', $data);
+    }
 }
