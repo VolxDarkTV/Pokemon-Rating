@@ -28,4 +28,14 @@ class MainController extends Controller
          
         return view('pages.show-pokemon', $data);
     }
+
+    // --- Destroy
+    public function pokemonDestroy($id){
+
+        $pokemon = Pokemon::find($id);
+
+        $pokemon -> delete();
+
+        return redirect() -> route('pokemonHome');
+    }
 }

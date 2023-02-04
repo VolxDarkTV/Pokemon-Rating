@@ -9,3 +9,7 @@ Route::get('/', [MainController::class, 'pokemonHome'])
 // Show
 Route::get('/pokemon/show{id}', [MainController::class, 'pokemonShow'])
     -> name("pokemonShow");
+
+// Destroy
+Route::get('/pokemon/destroy{id}', [MainController::class, 'pokemonDestroy'])
+    -> name('pokemonDestroy');
