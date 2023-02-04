@@ -23,7 +23,7 @@
             <div class="col-12 bg-danger rounded p-3">
                 <ul class="d-flex justify-content-center flex-wrap gap-4">
                     @foreach ($pokemons as $pokemon)
-                        <li class="d-flex flex-column align-items-center gap-2">
+                        <li class="d-flex flex-column align-items-center justify-content-center gap-2">
                             <a class="card bg-light d-flex flex-column align-items-center" href="{{ route('pokemonShow', ['id' => $pokemon -> id]) }}">
                                 <div>
                                     <img class="my_card" src="{{$pokemon -> img_link}}" alt="">
